@@ -1,4 +1,5 @@
-<ul>Veritabanı access
+<p>Yeddi emin uygulaması</p>
+<ul><b>Veritabanı access</b>
 <li>adı yeddi</li>
 <li>id birincil anahtar otomatik artan</li>
 <li>aciklama karakter 150 uzunluğunda</li>
@@ -8,7 +9,7 @@
 <li>cikti boolean tipinde</li>
 <li>ucret tamsayı tipinde</li>
 </ul>
-<ul>Bu uygulama ne yapar
+<ul><b>Bu uygulama ne yapar</p>
   <li>Çekilen araçların eklenmesi,silinmesi </li>
   <li>Araçların plaka ve açıklama bilgilerine göre filtrelenmesi</li>
   <li>Araçların kaç gün kaldığına göre günlük ücret üzerinden park ücretinin alınması ve çıkışının yapılması</li>
