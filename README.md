@@ -15,7 +15,7 @@
   <li>Araçların kaç gün kaldığına göre günlük ücret üzerinden park ücretinin alınması ve çıkışının yapılması</li>
   <li>asp.net ile sharpdevelop idesi aracılığıyla geliştirilmiştir.</li>
   <li>access db si pogramfiles(x86)/iisexpress/ dizinine atılacaktır.</li>
-  <li>iis çalıştığı linke göre default.aspx içindeki bir tane js fonkiyonu var içindeki redirect uzantısını güncelleyin kendi konfigürasyonunuza göre</li>
+  <li>iis çalıştığı linke göre default.aspx içindeki bir tane js fonkiyonu var içindeki redirect window.location.href'ini güncelleyin kendi konfigürasyonunuza göre</li>
   <li> Hayırlı işler</li>
   </ul>
   
