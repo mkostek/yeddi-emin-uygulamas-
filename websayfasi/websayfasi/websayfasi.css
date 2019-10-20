@@ -1,0 +1,80 @@
+﻿/*----------------------------------------------*/
+BODY
+{	font-family: Verdana, Arial;
+	font-weight: normal;
+	font-size:   14px;
+	color:		 Black;
+	background-color: #F0F0F0;
+}
+/*----------------------------------------------*/
+TABLE
+{
+	font-size:		 13px;
+	background-color: #ffeb3b;
+	border-width:	 2px;
+	border-color:     #000000;
+	border-collapse: collapse;
+	margin: 0;
+}
+/*----------------------------------------------*/
+TD
+{
+	background-color: #fff9c4;
+	border-color:	  #FF0000;
+	border-width:	  0px;
+	padding: 		  8;
+	margin:  		  0;
+}
+TH
+{
+	background-color: #FFEB3B;
+	border-color:	  #FF0000;
+	border-width:	  0px;
+	padding: 		  4;
+	margin:  		  0;
+}
+/*----------------------------------------------*/
+DIV
+{	width: 0px;
+    height: 0px;
+    border: solid 0px black;
+    padding: 0px;
+    background-color: #F0F0FF;
+}
+
+/*----------------------------------------------*/
+SELECT
+{	font-family: Verdana;
+	font-weight: normal;
+	font-size:   14px;
+	color:		  #000000;
+	background-color: #FFFFFF;
+}
+/*----------------------------------------------*/
+INPUT
+{	font-family: Verdana;
+	font-weight: normal;
+	font-size:   14px;
+	color:		  #000000;
+}
+/*----------------------------------------------*/
+TEXTAREA
+{	font-family: Verdana;
+	font-weight: normal;
+	font-size:   13px;
+	color:		  #000000;
+	background-color: #FFFFFF;
+}
+/*----------------------------------------------*/
+A
+{	FONT-WEIGHT: 	 normal;
+	COLOR:		 	 #004080;
+	font-style:	 	 normal;
+	text-decoration: none;
+}
+
+A:hover
+{	FONT-WEIGHT: bold;
+	COLOR: 		 #FFDDDD;
+}
+/*----------------------------------------------*/

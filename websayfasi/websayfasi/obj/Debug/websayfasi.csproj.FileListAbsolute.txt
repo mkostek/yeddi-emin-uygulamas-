@@ -1,0 +1,5 @@
+C:\Users\Asus\Documents\SharpDevelop Projects\websayfasi\websayfasi\bin\websayfasi.dll
+C:\Users\Asus\Documents\SharpDevelop Projects\websayfasi\websayfasi\bin\websayfasi.pdb
+C:\Users\Asus\Documents\SharpDevelop Projects\websayfasi\websayfasi\obj\Debug\websayfasi.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Documents\SharpDevelop Projects\websayfasi\websayfasi\obj\Debug\websayfasi.dll
+C:\Users\Asus\Documents\SharpDevelop Projects\websayfasi\websayfasi\obj\Debug\websayfasi.pdb
