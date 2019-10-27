@@ -74,6 +74,8 @@ namespace websayfasi
 			komut.Connection=baglan;
 			int l=komut.ExecuteNonQuery();
 			if(l==1)Response.Write("<script>alert('silme işlemi başarılı!');</script>");
+			else Response.Write("<script>alert('silme işlemi başarısız!');</script>");
+			Response.AddHeader("REFRESH","1.1;Default.aspx");
 		}
 		#endregion
 		#region load
@@ -108,7 +110,7 @@ namespace websayfasi
 			int l=komut.ExecuteNonQuery();
 			if(l==1)Response.Write("<script>alert('ekleme işlemi başarılı!');</script>");
 			}
-			baslat();
+			Response.AddHeader("REFRESH","1.1;Default.aspx");
 		}
 
 		#endregion
@@ -131,7 +133,7 @@ namespace websayfasi
 			Response.Write("<table><tr><th>Sil</th><th>Ayrıntı</th><th>araç plaka</th><th>giris tarih</th><th>acıklama</th><th>çıktı mı?</th></tr>");
 			while(rd.Read())
 			{
-				Response.Write("<tr><td><a href=aracGir.aspx?sil="+rd["id"]+">sil</a></td><td><a href=cikisVer.aspx?id="+rd["id"]+">ayrıntı</a></td><td>"+rd["aracPlaka"]+"</td><td>"+rd["girisTarih"]+"</td><td>"+rd["aciklama"]+"</td><td>"+rd["cikti"]+"</td></tr>");
+				Response.Write("<tr><td><a href=?sil="+rd["id"]+">sil</a></td><td><a href=cikisVer.aspx?id="+rd["id"]+">ayrıntı</a></td><td>"+rd["aracPlaka"]+"</td><td>"+rd["girisTarih"]+"</td><td>"+rd["aciklama"]+"</td><td>"+rd["cikti"]+"</td></tr>");
 			}
 			Response.Write("</table>");
 		}

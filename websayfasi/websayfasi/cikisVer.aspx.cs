@@ -30,7 +30,7 @@ namespace websayfasi
 
 		protected	HtmlInputText	aracPlaka;
 		protected	HtmlInputText	girisTarihi;
-		protected	HtmlInputText	aciklama;
+		protected	HtmlTextArea	aciklama;
 		protected	HtmlInputText	gecenGun;
 		protected	HtmlInputHidden	id;
 		protected	HtmlInputText	ucret;
@@ -100,7 +100,7 @@ namespace websayfasi
 			komut.Connection=baglan;
 			int l=komut.ExecuteNonQuery();
 			if(l==1)Response.Write("<script>alert('Güncelleme işlemi başarılı!,Anasayfaya yönlendiriliyorsunuz!')</script>");
-			Response.AddHeader("REFRESH","1.1;aracGir.aspx");
+			Response.AddHeader("REFRESH","1.1;Default.aspx");
 		}
 
 		#endregion

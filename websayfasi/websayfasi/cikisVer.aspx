@@ -49,7 +49,7 @@
 						Açıklama
 					</td>
 					<td>
-						<input id="aciklama" runat="server" />
+						<textarea id="aciklama" rows="10" cols="30" maxlength="200"  runat="server" ></textarea>
 					</td>
 				</tr>
 				<tr>
